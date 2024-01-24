@@ -1,0 +1,207 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ #nav-bar{
+    background-color: rgb(241, 159, 8);
+    padding-top: 1% ;
+    margin-top: -20px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 9%;
+    padding-left: 5% ;
+ }
+ .section-2{
+    display: flex;
+ }
+ ul,.li{
+    list-style: none;
+ } 
+ a{
+    text-decoration: none;
+ }
+ .item1,.item2,.item3,.item4{
+    margin-left: 20px;
+    margin-top: 20px;
+   font-size: 19px;
+   color: black;
+   font-weight: 600;
+ }
+ /* end nav-bar */
+
+/* bodypart2 */
+
+
+ .hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+   justify-content: center;
+    align-items: flex-end;
+   justify-content: center;
+  
+ }
+ .hero::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../images/hamburguesa.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 140vh;
+  
+    background-position-y: 10% ;
+    filter: brightness(60%);
+ } 
+ 
+ .hero-content{
+    background-color: aliceblue;
+    margin-bottom: 4%;
+    padding-left: 3% ;
+    padding-right: 3% ;
+ 
+ }
+ .week{
+   font-size: 30px;
+   font-weight: 900;
+}
+/* bodypart3 */
+
+.supertitle{
+    padding: 2% 10%;
+    margin-bottom: 20px;
+   background-color: rgb(169, 169, 169);
+   display: flex;
+
+ }
+.contain1{
+float: left;
+}
+
+.contain2,.contain3{
+   position: relative;
+   bottom: -64px;
+   left: 25%;
+   
+}
+.contain3{
+  margin-left: 13%;
+}
+/* bodypart4 */
+.review{
+    text-align: center;
+}
+
+/* bodyparte5 */
+
+.contain4,.contain5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+}
+.bengal{
+   font-size: 50px ;
+   font-weight: 900;
+}
+.bengal2{
+   font-size: 20px;
+   margin-left: 20px;
+}
+.btn{
+   border-radius: 20px;
+   margin-right: 20px;
+   background-color: brown;
+   color: aliceblue;
+   border-color: brown;
+   border-style: none;
+   padding: 14px 30px;
+}
+.print{
+   font-size: 50px;
+}
+.checked {
+   color: brown;
+   border-color: brown;
+   margin-left: 3px ;
+   margin-right: 3px ;
+  font-size: 20px;
+ }
+
+/* bodyparte5 */
+.menostitle{
+   padding: 2% 30%;
+    margin-bottom: 20px;
+   display: flex;
+   
+}
+
+h4{
+   font-size: 20px;
+   line-height: 30px;
+   color: rgb(91, 87, 87);
+  font-weight: 900;
+}
+/* bodypart7 */
+
+.primary{
+   padding: 2% 16%;
+   margin-bottom: 6%;
+   
+}
+.lista2{
+   list-style: inside;
+   
+}
+
+.contaner{
+   margin-right: 7%;
+   float: left;
+   margin-bottom: 20px;
+}
+.rebeld{
+   margin-left: 48% ;
+}
+h2{
+   font-weight: 900;
+}
+
+
+
+/* footer */
+ #nav-foo{
+    background-color: rgb(241, 159, 8);
+    padding-top: 1% ;
+    margin-top: 20px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 3%;
+    padding-left: 5% ;
+ }
+ .section-2{
+    display: flex;
+ }
+ ul,.li{
+    list-style: none;
+ } 
+ a{
+    text-decoration: none;
+ }
+ .item5,.item6,.item7,.item8{
+    margin-left: 20px;
+    margin-top: 20px;
+   font-size: 19px;
+   color: black;
+   font-weight: 520;
+ }
+ .copy{
+    color: black;
+    font-size: 30px;
+ }
+ 
